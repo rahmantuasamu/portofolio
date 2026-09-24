@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahman Mofnis, A.Md.Kom | Software Engineer & Web Developer</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">Rahman<span>.dev</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#education">Pendidikan</a></li>
+                <li><a href="#experience">Pengalaman</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#projects">Proyek</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-image-wrapper">
+                <div class="glow-effect"></div>
+                <!-- Pastikan nama file foto di folder sesuai: IMG-rahman.jpg -->
+                <img src="IMG-rahman.jpg" alt="Rahman Mofnis" class="my-photo">
+            </div>
+            <div class="hero-content">
+                <div class="badge"><i class="fas fa-circle"></span></i> Available for Opportunities</div>
+                <h1>Halo, Saya <br><span class="highlight">Rahman Mofnis, A.Md.Kom</span></h1>
+                <p class="hero-subtitle">Software Engineer & Web Developer</p>
+                <p class="hero-desc">Berfokus pada pengembangan sistem informasi berbasis website yang andal, efisien, dan memberikan solusi nyata menggunakan PHP Native & Database MySQL.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn primary"><i class="fas fa-code"></i> Lihat Proyek</a>
+                    <a href="#about" class="btn secondary"><i class="fas fa-user-tie"></i> Tentang Saya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TENTANG SAYA -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Tentang <span>Saya</span></h2>
+            <div class="about-card glass-morphism">
+                <p>
+                    Saya merupakan lulusan <strong>Akademi Teknik Informatika Tunas Bangsa Jakarta</strong> dengan gelar <strong>Ahli Madya Komputer (A.Md.Kom)</strong> pada jurusan Manajemen Informatika. Saya dikenal sebagai pribadi yang pekerja keras, disiplin, jujur, komunikatif, serta mampu bekerja secara mandiri maupun dalam tim. 
+                </p>
+                <p>
+                    Selain memiliki latar belakang operasional profesional, saya mempunyai ketertarikan mendalam dalam pengembangan sistem informasi berbasis website. Berbekal kemampuan teknis di bidang pemrograman, saya berdedikasi untuk menciptakan aplikasi web yang fungsional dan terstruktur dengan baik.
+                </p>
+                <div class="location-tag">
+                    <i class="fas fa-map-marker-alt"></i> Kalisari, Pasar Rebo, Jakarta Timur
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PENDIDIKAN & PENGALAMAN (2 Kolom Elegan) -->
+    <section id="education" class="section bg-dim">
+        <div class="container">
+            <div class="grid-2">
+                <!-- Pendidikan -->
+                <div>
+                    <h2 class="section-title left">Pendidikan <span>Akademik</span></h2>
+                    <div class="timeline-card">
+                        <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="timeline-info">
+                            <span class="year">Akademik</span>
+                            <h3>Ahli Madya Komputer (A.Md.Kom)</h3>
+                            <h4>Manajemen Informatika</h4>
+                            <p>Akademi Teknik Informatika Tunas Bangsa Jakarta</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pengalaman Kerja -->
+                <div id="experience">
+                    <h2 class="section-title left">Pengalaman <span>Kerja</span></h2>
+                    <div class="timeline-card">
+                        <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+                        <div class="timeline-info">
+                            <span class="year">2023 – 2025</span>
+                            <h3>Package Management</h3>
+                            <h4>JFJ (Jastif From Jakarta)</h4>
+                            <ul class="exp-list">
+                                <li>Mengelola dan mengatur proses pengiriman paket pelanggan dengan sistem terorganisir.</li>
+                                <li>Bertanggung jawab terhadap ketepatan jadwal, keakuratan data, dan kepuasan pelanggan.</li>
+                                <li>Koordinasi lapangan & pengaturan operasional distribusi paket.</li>
+                                <li>Membuat laporan hasil kerja dan progres secara berkala kepada manajemen.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KEAHLIAN TEKNIS (Tanpa Laravel, Git, & REST API) -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Keahlian <span>Teknis</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5" style="color: #e34f26;"></i>
+                    <h4>HTML5 & CSS3</h4>
+                    <p>Desain antarmuka web modern & responsif</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js" style="color: #f7df1e;"></i>
+                    <h4>JavaScript</h4>
+                    <p>Interaktivitas dan logika sisi klien</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-php" style="color: #777bb4;"></i>
+                    <h4>PHP Native</h4>
+                    <p>Logika backend handal & terstruktur</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database" style="color: #00758f;"></i>
+                    <h4>MySQL Database</h4>
+                    <p>Manajemen basis data relasional</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYEK & PORTOFOLIO -->
+    <section id="projects" class="section bg-dim">
+        <div class="container">
+            <h2 class="section-title">Proyek <span>Unggulan</span></h2>
+            <div class="project-showcase">
+                <div class="project-content">
+                    <span class="project-tag">Web Developer Project (2025)</span>
+                    <h3>Sistem Informasi Layanan Jasa Penyaluran Air (WAEL)</h3>
+                    <p>
+                        Proyek sistem informasi berbasis website yang dirancang mandiri untuk mengelola layanan pemesanan dan distribusi air secara digital. 
+                        Diterapkan secara nyata untuk <strong>Usaha Mandiri WAEL di Desa Kailolo, Kecamatan Pulau Haruku, Kabupaten Maluku Tengah</strong>.
+                    </p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check-circle"></i> Manajemen alur sistem login & pendaftaran pengguna</li>
+                        <li><i class="fas fa-check-circle"></i> Dashboard khusus pemesan dan penjual</li>
+                        <li><i class="fas fa-check-circle"></i> Sistem antrian digital terintegrasi database</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP Native</span><span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Rahman Mofnis, A.Md.Kom. All Rights Reserved.</p>
+            <p class="sub-footer">Software Engineer Portfolio</p>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
